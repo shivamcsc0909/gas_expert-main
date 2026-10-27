@@ -1,0 +1,31 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flameGrad" x1="90" y1="20" x2="90" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="40%" stop-color="#FF9500"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </linearGradient>
+    <linearGradient id="gearGrad" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF9500"/>
+      <stop offset="100%" stop-color="#E63900"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background (matches PNG logo) -->
+  <rect width="180" height="180" rx="28" fill="white"/>
+
+  <!-- Gear ring (orange) -->
+  <g transform="translate(90,78) scale(6.2)" fill="none" stroke="url(#gearGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0.22-10h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V8a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V-8a2 2 0 0 0-2-2z"/>
+  </g>
+
+  <!-- Flame (centered, gradient orange-yellow) -->
+  <g transform="translate(90,74) scale(5)" fill="url(#flameGrad)">
+    <path d="M0 8A3.5 3.5 0 0 0 3.5 4.5c0-1.8-.6-2.8-1.3-4C1.1-1.6 1.8-3.8 4-5.5c.5 2.8 2.2 5.5 4.2 7C10.2 3 11 5 11 7.5a5.5 5.5 0 0 1-11 0C0 5.8.4 4.5 1 3.6A3.5 3.5 0 0 0 0 8z"/>
+  </g>
+
+  <!-- "Gasxpert" text at bottom -->
+  <text x="90" y="158" font-family="Arial, sans-serif" font-size="18" font-weight="900" text-anchor="middle">
+    <tspan fill="#FF6B00">Gas</tspan><tspan fill="#444">xpert</tspan>
+  </text>
+</svg>

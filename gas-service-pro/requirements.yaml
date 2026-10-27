@@ -1,0 +1,21 @@
+packages:
+  "react-hook-form": "Form state management"
+  "@hookform/resolvers": "Zod validation for forms"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images:
+  - path: "artifacts/gas-service-pro/public/images/hero-bg.png"
+    description: "Abstract modern gradient mesh background in deep blue and subtle orange with soft light leaks, very premium and clean"
+    aspect_ratio: "16:9"
+  - path: "artifacts/gas-service-pro/public/images/map-ui.png"
+    description: "Clean modern minimal vector map illustration of a city with orange location pins, blue theme, UI style"
+    aspect_ratio: "4:3"
+  - path: "artifacts/gas-service-pro/public/images/stove-repair.png"
+    description: "Modern luxury kitchen gas stove with subtle blue flames, clean photography style, well lit, professional"
+    aspect_ratio: "4:3"
+
+notes:
+  - Frontend only. Form submissions are mocked and show a frontend success state.
+  - Smooth scrolling is enabled globally via CSS.
+  - Using pure CSS keyframes and Intersection Observer for lightweight, buttery smooth animations.
